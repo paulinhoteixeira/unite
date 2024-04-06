@@ -100,3 +100,19 @@ const listUpdate = (guests) => {
   }
 
 listUpdate(guests)
+
+const addGuest = (event) => {
+  event.preventDefault()
+
+  const formData = new FormData(event.target)
+
+  const guest = {
+    name: formData.get('name'),
+    email: formData.get('email'),
+    registrationDate: new Date(),
+    checkIn: null
+  }
+
+  guests = [guest, ...guests]
+  listUpdate(guests)
+}
