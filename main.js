@@ -3,7 +3,7 @@ let guests = [
     name: "Mayk Brito",
     email: "mayk@gmail.com",
     registrationDate: new Date(2024, 2, 22, 19, 20),
-    checkIn: new Date(2024, 2, 25, 22, 10),
+    checkIn: null,
   },
   {
     name: "Diego Fernandes",
@@ -21,7 +21,7 @@ let guests = [
     name: "Ciclano da Silva",
     email: "ciclano@gmail.com",
     registrationDate: new Date(2024, 3, 5, 10, 15),
-    checkIn: new Date(2024, 3, 6, 8, 0),
+    checkIn: null,
   },
   {
     name: "Beltrano Oliveira",
@@ -82,11 +82,14 @@ const newGuest = (guest) => {
           <strong>
             ${guest.name}
           </strong>
-        </td>
+        
         <br>
+        
         <small>
           ${guest.email}
         </small>
+        </td>
+
         <td>
           ${registrationDate}
         </td>
