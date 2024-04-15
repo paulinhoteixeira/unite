@@ -5,7 +5,7 @@
 <br>
 
 <p display="flex" align="center">
-  <img alt="Print da página desenvolvida durante o NLW Unite" src=".github/" width="100%">
+  <img alt="Print da página desenvolvida durante o NLW Unite" src="unite.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
