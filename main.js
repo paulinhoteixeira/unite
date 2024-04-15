@@ -1,13 +1,13 @@
 let guests = [
   {
-    name: "Mayk Brito",
-    email: "mayk@gmail.com",
+    name: "Paulo Santos",
+    email: "paulo@gmail.com",
     registrationDate: new Date(2024, 2, 22, 19, 20),
     checkIn: null,
   },
   {
-    name: "Diego Fernandes",
-    email: "diego@gmail.com",
+    name: "Luiza Oliveira",
+    email: "luiza@gmail.com",
     registrationDate: new Date(2024, 2, 27, 19, 20),
     checkIn: new Date(2024, 2, 28, 20, 10),
   },
@@ -38,26 +38,14 @@ let guests = [
   {
     name: "José Pereira",
     email: "jose@gmail.com",
-    registrationDate: new Date(2024, 3, 15, 17, 55),
-    checkIn: new Date(2024, 3, 16, 15, 45),
+    registrationDate: new Date(2024, 3, 12, 9, 40),
+    checkIn: new Date(2024, 3, 13, 10, 20),
   },
   {
     name: "Maria Silva",
     email: "maria@gmail.com",
-    registrationDate: new Date(2024, 3, 18, 12, 0),
-    checkIn: new Date(2024, 3, 19, 14, 30),
-  },
-  {
-    name: "Luiza Oliveira",
-    email: "luiza@gmail.com",
-    registrationDate: new Date(2024, 3, 22, 14, 20),
-    checkIn: new Date(2024, 3, 23, 16, 10),
-  },
-  {
-    name: "Paulo Santos",
-    email: "paulo@gmail.com",
-    registrationDate: new Date(2024, 3, 25, 8, 45),
-    checkIn: new Date(2024, 3, 26, 11, 20),
+    registrationDate: new Date(2024, 3, 12, 9, 40),
+    checkIn: new Date(2024, 3, 13, 10, 20),
   },
 ];
 
